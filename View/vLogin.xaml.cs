@@ -19,7 +19,7 @@ public partial class vLogin : ContentPage
         if (ValidateCredentials(username, password))
         {
             await DisplayAlert("Éxito", $"Bienvenido {username}", "OK");
-            //await Navigation.PushAsync(new View.vBienvenida());
+            await Navigation.PushAsync(new View.vBienvenida());
         }
         else
         {

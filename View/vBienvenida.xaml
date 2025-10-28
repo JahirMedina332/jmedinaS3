@@ -1,12 +1,242 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:sys="clr-namespace:System;assembly=netstandard"
              x:Class="jmedinaS3.View.vBienvenida"
-             Title="vBienvenida">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             Title="vBienvenida"
+             BackgroundColor="{DynamicResource PageBackgroundColor}">
+    <ScrollView>
+        <VerticalStackLayout Spacing="25" Padding="25">
+
+            <!-- Header -->
+            <Frame BackgroundColor="#2C3E50" CornerRadius="15" Padding="20" HasShadow="True">
+                <VerticalStackLayout Spacing="8" HorizontalOptions="Center">
+                    <Label Text="UISRAEL" 
+                        FontSize="24" 
+                        FontAttributes="Bold" 
+                        TextColor="White"
+                        HorizontalOptions="Center"/>
+                    <Label Text="Sistema de Calificaciones" 
+                        FontSize="16" 
+                        TextColor="#ECF0F1"
+                        HorizontalOptions="Center"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Selección de Estudiante y Fecha -->
+            <Frame BackgroundColor="#FFFFFF" CornerRadius="12" Padding="20" HasShadow="True">
+                <VerticalStackLayout Spacing="15">
+                    <Label Text="DATOS DEL ESTUDIANTE" 
+                        FontSize="16" 
+                        FontAttributes="Bold" 
+                        TextColor="#2C3E50"
+                        HorizontalOptions="Center"/>
+
+                    <Grid ColumnDefinitions="*,*" ColumnSpacing="15" RowSpacing="15">
+                        <!-- Estudiante -->
+                        <VerticalStackLayout Grid.Column="0" Spacing="5">
+                            <Label Text="Estudiante:" 
+                                FontAttributes="Bold"
+                                TextColor="#34495E"/>
+                            <Picker x:Name="studentPicker"
+                                 Title="Seleccione estudiante"
+                                 ItemDisplayBinding="{Binding .}"
+                                 BackgroundColor="#F8F9FA"
+                                 HeightRequest="50">
+                                <Picker.ItemsSource>
+                                    <x:Array Type="{x:Type x:String}">
+                                        <x:String>Juan Pérez</x:String>
+                                        <x:String>María García</x:String>
+                                        <x:String>Carlos López</x:String>
+                                        <x:String>Ana Martínez</x:String>
+                                        <x:String>Pedro Rodríguez</x:String>
+                                    </x:Array>
+                                </Picker.ItemsSource>
+                            </Picker>
+                        </VerticalStackLayout>
+
+                        <!-- Fecha -->
+                        <VerticalStackLayout Grid.Column="1" Spacing="5">
+                            <Label Text="Fecha:" 
+                                FontAttributes="Bold"
+                                TextColor="#34495E"/>
+                            <DatePicker x:Name="datePicker"
+                Format="dd/MM/yyyy"
+                Date="{Binding SelectedDate}"
+                    MaximumDate="{x:Static sys:DateTime.Now}"
+                BackgroundColor="#F8F9FA"
+                HeightRequest="50"/>
+                        </VerticalStackLayout>
+                    </Grid>
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Tabla Parcial 1 -->
+            <Frame BackgroundColor="#FFFFFF" CornerRadius="12" Padding="0" HasShadow="True">
+                <VerticalStackLayout Spacing="0">
+                    <!-- Header de la tabla -->
+                    <BoxView BackgroundColor="#E67E22" HeightRequest="5" CornerRadius="12,12,0,0"/>
+                    <Grid BackgroundColor="#FFF8F0" Padding="15,10">
+                        <Label Text="PARCIAL 1" 
+                            FontSize="16" 
+                            FontAttributes="Bold" 
+                            HorizontalOptions="Center"
+                            TextColor="#E67E22"/>
+                    </Grid>
+
+                    <!-- Contenido de la tabla -->
+                    <Grid ColumnDefinitions="*,*" RowDefinitions="Auto,Auto,Auto" 
+                       ColumnSpacing="15" RowSpacing="12" Padding="15,15">
+
+                        <!-- Headers -->
+                        <Label Grid.Row="0" Grid.Column="0" Text="Concepto" FontAttributes="Bold" TextColor="#2C3E50"/>
+                        <Label Grid.Row="0" Grid.Column="1" Text="Nota (0-10)" FontAttributes="Bold" TextColor="#2C3E50"/>
+
+                        <!-- Seguimiento 1 -->
+                        <Label Grid.Row="1" Grid.Column="0" Text="Seguimiento 1 (30%)" TextColor="#34495E"/>
+                        <Entry Grid.Row="1" Grid.Column="1" 
+                            x:Name="seguimiento1Entry"
+                            Keyboard="Numeric"
+                            Placeholder="0.00"
+                            BackgroundColor="#F8F9FA"
+                            TextChanged="OnNotaTextChanged"/>
+
+                        <!-- Examen 1 -->
+                        <Label Grid.Row="2" Grid.Column="0" Text="Examen 1 (20%)" TextColor="#34495E"/>
+                        <Entry Grid.Row="2" Grid.Column="1" 
+                            x:Name="examen1Entry"
+                            Keyboard="Numeric"
+                            Placeholder="0.00"
+                            BackgroundColor="#F8F9FA"
+                            TextChanged="OnNotaTextChanged"/>
+                    </Grid>
+
+                    <!-- Resultado Parcial 1 -->
+                    <BoxView BackgroundColor="#F5F5F5" HeightRequest="1"/>
+                    <Grid BackgroundColor="#FCFCFC" Padding="15,10">
+                        <Label x:Name="notaParcial1Label" 
+                            Text="Nota Parcial 1: 0.00" 
+                            FontAttributes="Bold"
+                            HorizontalOptions="Center"
+                            TextColor="#E67E22"/>
+                    </Grid>
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Tabla Parcial 2 -->
+            <Frame BackgroundColor="#FFFFFF" CornerRadius="12" Padding="0" HasShadow="True">
+                <VerticalStackLayout Spacing="0">
+                    <!-- Header de la tabla -->
+                    <BoxView BackgroundColor="#27AE60" HeightRequest="5" CornerRadius="12,12,0,0"/>
+                    <Grid BackgroundColor="#F0FFF8" Padding="15,10">
+                        <Label Text="PARCIAL 2" 
+                            FontSize="16" 
+                            FontAttributes="Bold" 
+                            HorizontalOptions="Center"
+                            TextColor="#27AE60"/>
+                    </Grid>
+
+                    <!-- Contenido de la tabla -->
+                    <Grid ColumnDefinitions="*,*" RowDefinitions="Auto,Auto,Auto" 
+                       ColumnSpacing="15" RowSpacing="12" Padding="15,15">
+
+                        <!-- Headers -->
+                        <Label Grid.Row="0" Grid.Column="0" Text="Concepto" FontAttributes="Bold" TextColor="#2C3E50"/>
+                        <Label Grid.Row="0" Grid.Column="1" Text="Nota (0-10)" FontAttributes="Bold" TextColor="#2C3E50"/>
+
+                        <!-- Seguimiento 2 -->
+                        <Label Grid.Row="1" Grid.Column="0" Text="Seguimiento 2 (30%)" TextColor="#34495E"/>
+                        <Entry Grid.Row="1" Grid.Column="1" 
+                            x:Name="seguimiento2Entry"
+                            Keyboard="Numeric"
+                            Placeholder="0.00"
+                            BackgroundColor="#F8F9FA"
+                            TextChanged="OnNotaTextChanged"/>
+
+                        <!-- Examen 2 -->
+                        <Label Grid.Row="2" Grid.Column="0" Text="Examen 2 (20%)" TextColor="#34495E"/>
+                        <Entry Grid.Row="2" Grid.Column="1" 
+                            x:Name="examen2Entry"
+                            Keyboard="Numeric"
+                            Placeholder="0.00"
+                            BackgroundColor="#F8F9FA"
+                            TextChanged="OnNotaTextChanged"/>
+                    </Grid>
+
+                    <!-- Resultado Parcial 2 -->
+                    <BoxView BackgroundColor="#F5F5F5" HeightRequest="1"/>
+                    <Grid BackgroundColor="#FCFCFC" Padding="15,10">
+                        <Label x:Name="notaParcial2Label" 
+                            Text="Nota Parcial 2: 0.00" 
+                            FontAttributes="Bold"
+                            HorizontalOptions="Center"
+                            TextColor="#27AE60"/>
+                    </Grid>
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Resumen Final -->
+            <Frame BackgroundColor="#FFFFFF" CornerRadius="12" Padding="0" HasShadow="True">
+                <VerticalStackLayout Spacing="0">
+                    <!-- Header del resumen -->
+                    <BoxView BackgroundColor="#3498DB" HeightRequest="5" CornerRadius="12,12,0,0"/>
+                    <Grid BackgroundColor="#F0F8FF" Padding="15,10">
+                        <Label Text="RESUMEN FINAL" 
+                            FontSize="16" 
+                            FontAttributes="Bold" 
+                            HorizontalOptions="Center"
+                            TextColor="#3498DB"/>
+                    </Grid>
+
+                    <!-- Contenido del resumen -->
+                    <Grid ColumnDefinitions="*,*" RowDefinitions="Auto,Auto,Auto,Auto" 
+                       ColumnSpacing="15" RowSpacing="12" Padding="15,15">
+
+                        <Label Grid.Row="0" Grid.Column="0" Text="Nota Parcial 1:" FontAttributes="Bold" TextColor="#2C3E50"/>
+                        <Label Grid.Row="0" Grid.Column="1" x:Name="resumenParcial1Label" Text="0.00" TextColor="#2C3E50"/>
+
+                        <Label Grid.Row="1" Grid.Column="0" Text="Nota Parcial 2:" FontAttributes="Bold" TextColor="#2C3E50"/>
+                        <Label Grid.Row="1" Grid.Column="1" x:Name="resumenParcial2Label" Text="0.00" TextColor="#2C3E50"/>
+
+                        <BoxView Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="#ECF0F1" HeightRequest="2"/>
+
+                        <Label Grid.Row="3" Grid.Column="0" Text="NOTA FINAL:" FontAttributes="Bold" FontSize="16" TextColor="#2C3E50"/>
+                        <Label Grid.Row="3" Grid.Column="1" x:Name="resumenFinalLabel" Text="0.00" FontSize="16" FontAttributes="Bold" TextColor="#2C3E50"/>
+                    </Grid>
+
+                    <!-- Estado -->
+                    <BoxView BackgroundColor="#F5F5F5" HeightRequest="1"/>
+                    <Grid BackgroundColor="#FCFCFC" Padding="15,12">
+                        <Label x:Name="estadoLabel" 
+                            Text="Estado: -" 
+                            FontSize="16" 
+                            FontAttributes="Bold"
+                            HorizontalOptions="Center"/>
+                    </Grid>
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Botones de Acción -->
+            <Grid ColumnDefinitions="*,*" ColumnSpacing="15">
+                <Button Grid.Column="0" 
+                     Text="📊 CALCULAR" 
+                     BackgroundColor="#3498DB"
+                     TextColor="White"
+                     FontAttributes="Bold"
+                     CornerRadius="10"
+                     HeightRequest="55"
+                     Clicked="OnCalculateClicked"/>
+
+                <Button Grid.Column="1" 
+                     Text="🗑️ LIMPIAR" 
+                     BackgroundColor="#95A5A6"
+                     TextColor="White"
+                     FontAttributes="Bold"
+                     CornerRadius="10"
+                     HeightRequest="55"
+                     Clicked="OnClearClicked"/>
+            </Grid>
+
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

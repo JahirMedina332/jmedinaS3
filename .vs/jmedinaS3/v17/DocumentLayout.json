@@ -19,15 +19,27 @@
       "RelativeMoniker": "D:0:0:{F21B3195-C871-404F-A069-2F60B378FFA2}|jmedinaS3.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F21B3195-C871-404F-A069-2F60B378FFA2}|jmedinaS3.csproj|c:\\aplicaciones moviles\\jmedinas3\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F21B3195-C871-404F-A069-2F60B378FFA2}|jmedinaS3.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F21B3195-C871-404F-A069-2F60B378FFA2}|jmedinaS3.csproj|c:\\aplicaciones moviles\\jmedinas3\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F21B3195-C871-404F-A069-2F60B378FFA2}|jmedinaS3.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F21B3195-C871-404F-A069-2F60B378FFA2}|jmedinaS3.csproj|c:\\aplicaciones moviles\\jmedinas3\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F21B3195-C871-404F-A069-2F60B378FFA2}|jmedinaS3.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F21B3195-C871-404F-A069-2F60B378FFA2}|jmedinaS3.csproj|c:\\aplicaciones moviles\\jmedinas3\\view\\vlogin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F21B3195-C871-404F-A069-2F60B378FFA2}|jmedinaS3.csproj|solutionrelative:view\\vlogin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Aplicaciones moviles\\jmedinaS3\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jahir\\AppData\\Local\\Temp\\.vsdbgsrc\\24996ed5086c70c71f9494542898172d81ce571c\\App.xaml.sg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F21B3195-C871-404F-A069-2F60B378FFA2}|jmedinaS3.csproj|c:\\aplicaciones moviles\\jmedinas3\\view\\vlogin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F21B3195-C871-404F-A069-2F60B378FFA2}|jmedinaS3.csproj|solutionrelative:view\\vlogin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F21B3195-C871-404F-A069-2F60B378FFA2}|jmedinaS3.csproj|c:\\aplicaciones moviles\\jmedinas3\\view\\vregister.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -36,10 +48,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F21B3195-C871-404F-A069-2F60B378FFA2}|jmedinaS3.csproj|c:\\aplicaciones moviles\\jmedinas3\\view\\vregister.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{F21B3195-C871-404F-A069-2F60B378FFA2}|jmedinaS3.csproj|solutionrelative:view\\vregister.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F21B3195-C871-404F-A069-2F60B378FFA2}|jmedinaS3.csproj|c:\\aplicaciones moviles\\jmedinas3\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F21B3195-C871-404F-A069-2F60B378FFA2}|jmedinaS3.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F21B3195-C871-404F-A069-2F60B378FFA2}|jmedinaS3.csproj|c:\\aplicaciones moviles\\jmedinas3\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -52,10 +60,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F21B3195-C871-404F-A069-2F60B378FFA2}|jmedinaS3.csproj|c:\\aplicaciones moviles\\jmedinas3\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{F21B3195-C871-404F-A069-2F60B378FFA2}|jmedinaS3.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F21B3195-C871-404F-A069-2F60B378FFA2}|jmedinaS3.csproj|c:\\aplicaciones moviles\\jmedinas3\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F21B3195-C871-404F-A069-2F60B378FFA2}|jmedinaS3.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -69,39 +73,41 @@
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Aplicaciones moviles\\jmedinaS3\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Aplicaciones moviles\\jmedinaS3\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T21:27:07.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "vBienvenida.xaml.cs",
               "DocumentMoniker": "C:\\Aplicaciones moviles\\jmedinaS3\\View\\vBienvenida.xaml.cs",
               "RelativeDocumentMoniker": "View\\vBienvenida.xaml.cs",
               "ToolTip": "C:\\Aplicaciones moviles\\jmedinaS3\\View\\vBienvenida.xaml.cs",
               "RelativeToolTip": "View\\vBienvenida.xaml.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAIwA4AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T22:27:50.459Z"
+              "WhenOpened": "2025-10-24T22:27:50.459Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MauiProgram.cs",
-              "DocumentMoniker": "C:\\Aplicaciones moviles\\jmedinaS3\\MauiProgram.cs",
-              "RelativeDocumentMoniker": "MauiProgram.cs",
-              "ToolTip": "C:\\Aplicaciones moviles\\jmedinaS3\\MauiProgram.cs",
-              "RelativeToolTip": "MauiProgram.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T21:30:17.254Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "vBienvenida.xaml",
-              "DocumentMoniker": "C:\\Aplicaciones moviles\\jmedinaS3\\View\\vBienvenida.xaml",
-              "RelativeDocumentMoniker": "View\\vBienvenida.xaml",
-              "ToolTip": "C:\\Aplicaciones moviles\\jmedinaS3\\View\\vBienvenida.xaml",
-              "RelativeToolTip": "View\\vBienvenida.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Aplicaciones moviles\\jmedinaS3\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Aplicaciones moviles\\jmedinaS3\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-24T21:26:55.643Z",
+              "WhenOpened": "2025-10-24T21:29:08.34Z",
               "EditorCaption": ""
             },
             {
@@ -112,14 +118,65 @@
               "RelativeDocumentMoniker": "View\\vLogin.xaml.cs",
               "ToolTip": "C:\\Aplicaciones moviles\\jmedinaS3\\View\\vLogin.xaml.cs",
               "RelativeToolTip": "View\\vLogin.xaml.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwB4AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-24T22:18:27.955Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "vBienvenida.xaml",
+              "DocumentMoniker": "C:\\Aplicaciones moviles\\jmedinaS3\\View\\vBienvenida.xaml",
+              "RelativeDocumentMoniker": "View\\vBienvenida.xaml",
+              "ToolTip": "C:\\Aplicaciones moviles\\jmedinaS3\\View\\vBienvenida.xaml",
+              "RelativeToolTip": "View\\vBienvenida.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-24T21:26:55.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Aplicaciones moviles\\jmedinaS3\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "C:\\Aplicaciones moviles\\jmedinaS3\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T21:30:17.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Aplicaciones moviles\\jmedinaS3\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Models\\Student.cs",
+              "ToolTip": "C:\\Aplicaciones moviles\\jmedinaS3\\Models\\Student.cs",
+              "RelativeToolTip": "Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T01:11:44.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "vLogin.xaml",
+              "DocumentMoniker": "C:\\Aplicaciones moviles\\jmedinaS3\\View\\vLogin.xaml",
+              "RelativeDocumentMoniker": "View\\vLogin.xaml",
+              "ToolTip": "C:\\Aplicaciones moviles\\jmedinaS3\\View\\vLogin.xaml",
+              "RelativeToolTip": "View\\vLogin.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-24T21:26:28.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "App.g.i.cs",
               "DocumentMoniker": "C:\\Aplicaciones moviles\\jmedinaS3\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
               "RelativeDocumentMoniker": "obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
@@ -131,7 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "App.xaml.sg.cs",
               "DocumentMoniker": "C:\\Users\\Jahir\\AppData\\Local\\Temp\\.vsdbgsrc\\24996ed5086c70c71f9494542898172d81ce571c\\App.xaml.sg.cs",
               "RelativeDocumentMoniker": "..\\..\\Users\\Jahir\\AppData\\Local\\Temp\\.vsdbgsrc\\24996ed5086c70c71f9494542898172d81ce571c\\App.xaml.sg.cs",
@@ -144,19 +201,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Aplicaciones moviles\\jmedinaS3\\App.xaml",
-              "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "C:\\Aplicaciones moviles\\jmedinaS3\\App.xaml",
-              "RelativeToolTip": "App.xaml",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-24T21:29:08.34Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "vRegister.xaml",
               "DocumentMoniker": "C:\\Aplicaciones moviles\\jmedinaS3\\View\\vRegister.xaml",
               "RelativeDocumentMoniker": "View\\vRegister.xaml",
@@ -168,7 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\Aplicaciones moviles\\jmedinaS3\\MainPage.xaml",
               "RelativeDocumentMoniker": "MainPage.xaml",
@@ -180,7 +225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "AppShell.xaml.cs",
               "DocumentMoniker": "C:\\Aplicaciones moviles\\jmedinaS3\\AppShell.xaml.cs",
               "RelativeDocumentMoniker": "AppShell.xaml.cs",
@@ -192,19 +237,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "vLogin.xaml",
-              "DocumentMoniker": "C:\\Aplicaciones moviles\\jmedinaS3\\View\\vLogin.xaml",
-              "RelativeDocumentMoniker": "View\\vLogin.xaml",
-              "ToolTip": "C:\\Aplicaciones moviles\\jmedinaS3\\View\\vLogin.xaml",
-              "RelativeToolTip": "View\\vLogin.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-24T21:26:28.977Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "AppShell.xaml",
               "DocumentMoniker": "C:\\Aplicaciones moviles\\jmedinaS3\\AppShell.xaml",
               "RelativeDocumentMoniker": "AppShell.xaml",
@@ -216,19 +249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Aplicaciones moviles\\jmedinaS3\\App.xaml.cs",
-              "RelativeDocumentMoniker": "App.xaml.cs",
-              "ToolTip": "C:\\Aplicaciones moviles\\jmedinaS3\\App.xaml.cs",
-              "RelativeToolTip": "App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T21:27:07.15Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "vRegister.xaml.cs",
               "DocumentMoniker": "C:\\Aplicaciones moviles\\jmedinaS3\\View\\vRegister.xaml.cs",
               "RelativeDocumentMoniker": "View\\vRegister.xaml.cs",

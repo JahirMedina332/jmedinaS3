@@ -14,11 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("jmedinaS3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+437c3aafba8b7f9965d89ae1d663ea7422c8164e")]
 [assembly: System.Reflection.AssemblyProductAttribute("jmedinaS3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("jmedinaS3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
-[assembly: System.Runtime.Versioning.TargetPlatformAttribute("iOS18.5")]
+[assembly: System.Runtime.Versioning.TargetPlatformAttribute("iOS26.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("iOS15.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
